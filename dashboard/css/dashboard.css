@@ -1,0 +1,9 @@
+.bg-indah {
+    background: url(../../img/dashboard.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fontbesar {
+    font-size: 30px;
+}

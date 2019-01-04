@@ -1,0 +1,155 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    @font-face { font-family: SanFrancisco; src: url('font/SanFranciscoDisplay-Regular.otf'); }
+}
+
+h1 {
+    font-size: 120px;
+    color: #fff;
+}
+
+h4 {
+    font-size: 22px;
+    color: #fff;
+}
+
+h2 {
+    color: #fff;
+}
+
+.container h2 {
+    color: #fff;
+}
+
+.fontbesar{
+    font-size: 30px;
+}
+
+.line {
+    background: #fff;
+    width: 30px;
+    padding: 2px;
+}
+
+.line2 {
+    background: #fff;
+    width: 30px;
+    padding: 2px;
+}
+
+.card:hover {
+    box-shadow:0 30px 70px rgba(255, 255, 255, 0.2);
+    transform: scale3d(1.03,1.03, 1.03);
+    transition: 0.5s;
+}
+
+.full {
+    height: 100vh;
+}
+
+.bg-home {
+    background: url('../img/back1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-service {
+    background: #2e2e2e url('../img/backservice.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-about {
+    background: url('../img/backabout.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-contact {
+    background: url('../img/backcontact.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jarakatas {
+    margin-top: 3em;
+}
+.jarakbtndua {}
+.jarakbtnsatu {}
+
+.jarakbawahmobile{}
+.rowmobile{}
+
+.ukuranlg {
+    width: 18rem;
+}
+
+.kontak {
+    height: 210px;
+    background: rgba(229, 226, 226, 0.753);
+    padding: 20px;
+}
+
+.kontak:hover {
+    background: #c429319c;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    transform: scale3d(1.03,1.03,1.03);
+}
+
+.kontakisi {
+font-size: 60px;
+}
+
+@media (max-width: 760px){
+    h1 {
+        font-size: 50px;
+        color: #fff;
+    }
+    
+    h4 {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .jarakatas {
+        margin-top: 1em;
+    }
+    
+    .jarakbtnsatu {
+        margin-top: 3em;
+    }
+    
+    .jarakbtndua {
+        margin-top: 3em;
+    }
+
+    .imgonmobile {
+        height: 200px;
+    }
+
+    .jarakbawahmobile {
+        margin-bottom: 3em;
+    }
+    .rowmobile {
+        text-align: center;
+    }
+
+    .line2{
+        display: none;
+    }
+
+    .ukuranlg {
+        margin-left: 1em;
+    }
+}
+
+@media (max-width: 465px){
+    .jarakbtndua {
+        margin-top: 0.7em !important;
+    }
+}
